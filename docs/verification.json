@@ -1,0 +1,180 @@
+{
+  "blender": "5.0.0",
+  "file": "La_Nuit_Etoilee_V7.blend",
+  "scenes": [
+    {
+      "name": "09 | PROMENADE — Regards dans la nuit",
+      "objects": 248,
+      "object_types": {
+        "ARMATURE": 6,
+        "CAMERA": 14,
+        "EMPTY": 8,
+        "LIGHT": 70,
+        "MESH": 150
+      },
+      "frames": [
+        1,
+        1440
+      ],
+      "camera": "03 | Les rues habitées",
+      "sequencer": false,
+      "collections": [
+        "CINÉMA | Objets et vie du village",
+        "CINÉMA | Personnages sculptés",
+        "FILM | Cadre & écrin",
+        "FILM | Ciel continu — fond, côtés, plafond",
+        "FILM | Cyprès & vergers",
+        "FILM | Entrer dans le tableau",
+        "FILM | Habitants, chat et petits gestes",
+        "FILM | Lumière & atmosphère",
+        "FILM | Lune & étoiles",
+        "FILM | Objets de la rue",
+        "FILM | Relief habité & Alpilles",
+        "FILM | Saint-Rémy — maisons singulières",
+        "FILM | Sept regards",
+        "PROMENADE | Cinq regards à distance"
+      ]
+    },
+    {
+      "name": "10 | LES HEURES — Depuis la rue",
+      "objects": 226,
+      "object_types": {
+        "ARMATURE": 3,
+        "CAMERA": 2,
+        "EMPTY": 13,
+        "LIGHT": 68,
+        "MESH": 140
+      },
+      "frames": [
+        745,
+        984
+      ],
+      "camera": "Les heures à hauteur de village.001",
+      "sequencer": false,
+      "collections": [
+        "CINÉMA | Objets et vie du village.002",
+        "CINÉMA | Personnages sculptés.002",
+        "CYCLE | Cadre & écrin.001",
+        "CYCLE | Ciel continu — fond, côtés, plafond.001",
+        "CYCLE | Cyprès & vergers.001",
+        "CYCLE | Entrer dans le tableau.001",
+        "CYCLE | Les hirondelles.001",
+        "CYCLE | Lumière & atmosphère.001",
+        "CYCLE | Lune & étoiles.001",
+        "CYCLE | Relief habité & Alpilles.001",
+        "CYCLE | Saint-Rémy — maisons singulières.001"
+      ]
+    },
+    {
+      "name": "13 | LA NUIT RESPIRE — Fenêtre et hirondelle",
+      "objects": 245,
+      "object_types": {
+        "ARMATURE": 4,
+        "CAMERA": 2,
+        "EMPTY": 14,
+        "LIGHT": 68,
+        "MESH": 157
+      },
+      "frames": [
+        1,
+        144
+      ],
+      "camera": "Les heures à hauteur de village",
+      "sequencer": false,
+      "collections": [
+        "CINÉMA | Objets et vie du village.001",
+        "CINÉMA | Personnages sculptés.001",
+        "CYCLE | Cadre & écrin",
+        "CYCLE | Ciel continu — fond, côtés, plafond",
+        "CYCLE | Cyprès & vergers",
+        "CYCLE | Entrer dans le tableau",
+        "CYCLE | Les hirondelles",
+        "CYCLE | Lumière & atmosphère",
+        "CYCLE | Lune & étoiles",
+        "CYCLE | Relief habité & Alpilles",
+        "CYCLE | Saint-Rémy — maisons singulières",
+        "FILM | Habitants, chat et petits gestes.001",
+        "NUIT | Une personne occupée, de profil"
+      ]
+    }
+  ],
+  "counts": {
+    "objects": 750,
+    "meshes": 473,
+    "materials": 675,
+    "armatures": 13,
+    "actions": 220,
+    "worlds": 3,
+    "sounds": 0,
+    "movieclips": 0,
+    "libraries": 0,
+    "cache_files": 0
+  },
+  "textures": [
+    {
+      "name": "reference_van_gogh.png",
+      "packed": true,
+      "path": "//textures\\reference_van_gogh.png"
+    }
+  ],
+  "unpacked_dependencies": [],
+  "sha256": "f390d4dafdb127efa96bb429890a652d3305c5f61bb965a9a4a46991c68a93a2",
+  "evaluations": [
+    {
+      "scene": "09",
+      "frame": 265,
+      "evaluated_vertices": 3157265
+    },
+    {
+      "scene": "09",
+      "frame": 384,
+      "evaluated_vertices": 3157265
+    },
+    {
+      "scene": "09",
+      "frame": 625,
+      "evaluated_vertices": 3157265
+    },
+    {
+      "scene": "09",
+      "frame": 684,
+      "evaluated_vertices": 3157265
+    },
+    {
+      "scene": "10",
+      "frame": 745,
+      "evaluated_vertices": 3168131
+    },
+    {
+      "scene": "10",
+      "frame": 864,
+      "evaluated_vertices": 3168131
+    },
+    {
+      "scene": "10",
+      "frame": 984,
+      "evaluated_vertices": 3168131
+    },
+    {
+      "scene": "13",
+      "frame": 1,
+      "evaluated_vertices": 3175082
+    },
+    {
+      "scene": "13",
+      "frame": 46,
+      "evaluated_vertices": 3175098
+    },
+    {
+      "scene": "13",
+      "frame": 73,
+      "evaluated_vertices": 3173379
+    },
+    {
+      "scene": "13",
+      "frame": 144,
+      "evaluated_vertices": 3175082
+    }
+  ],
+  "status": "passed"
+}

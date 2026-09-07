@@ -1,0 +1,15 @@
+# Large Blender assets are distributed in GitHub Releases.
+*.blend
+*.blend1
+*.blend2
+*.zip
+*.7z
+*.mp4
+*.mov
+*.wav
+*.mp3
+__pycache__/
+.DS_Store
+Thumbs.db
+renders/
+dist/
