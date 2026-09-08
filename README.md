@@ -1,56 +1,57 @@
-# La Nuit étoilée — modèles Blender
+# The Starry Night — Blender Models
 
-Les scènes 3D de **La Nuit étoilée**, inspirées de Vincent van Gogh, dans la **version V7 utilisée pour le projet final**. Village, ciel peint en volume, cyprès, reliefs, habitants, hirondelles, accessoires et éclairages sont réunis dans un fichier Blender modifiable.
+The 3D scenes of **The Starry Night**, inspired by Vincent van Gogh, from the **V7 version used in the final film**. The village, sculpted sky, cypress trees, landscape, inhabitants, swallows, props, and lighting are available in one editable Blender file.
 
-**[Télécharger le projet Blender complet](https://github.com/Firisis971/van-gogh-blender/releases/latest)** · [Guide Blender](docs/GUIDE_BLENDER.md) · [Crédits](CREDITS.md)
+**[Download the complete Blender project](https://github.com/Firisis971/van-gogh-blender/releases/latest)** · [Blender guide](docs/GUIDE_BLENDER.md) · [Credits](CREDITS.md)
 
-![Le village en 3D](previews/village.png)
+![The village in 3D](previews/village.png)
 
-## Télécharger et ouvrir
+## Download and open
 
-1. Dans **Releases**, télécharger **La_Nuit_Etoilee_V7_Blender.zip**.
-2. Décompresser l'archive.
-3. Ouvrir `blender/La_Nuit_Etoilee_V7.blend` avec **Blender 5.0 ou une version compatible**. La version vérifiée est Blender **5.0.0**.
+1. Go to **Releases** and download **La_Nuit_Etoilee_V7_Blender.zip**.
+2. Extract the archive.
+3. Open `blender/La_Nuit_Etoilee_V7.blend` in **Blender 5.0 or a compatible version**. The project was verified with **Blender 5.0.0**.
 
-Les textures nécessaires sont intégrées au `.blend`. Aucune extension tierce, bibliothèque Blender externe, musique ou séquence d'images n'est nécessaire.
+Required textures are packed into the `.blend` file. No third-party add-ons, external Blender libraries, music, or image sequences are required.
 
-> Le bouton **Code → Download ZIP** télécharge la documentation et les scripts. Le **fichier Blender complet se trouve dans Releases**, car il dépasse la limite d'un fichier Git classique.
+> **Code → Download ZIP** downloads the documentation and scripts. The **complete Blender file is available under Releases**, because it exceeds the regular Git file size limit.
 
-## Contenu
+## What's included
 
-| Scène Blender | Éléments disponibles | Animation |
+| Blender scene | Available content | Animation |
 |---|---|---|
-| **09 · PROMENADE — Regards dans la nuit** | Village, relief, cyprès, lune, étoiles, cadre, personnages, objets de rue, caméras et lumières | Plage 1–1440 ; ouverture sur l'image 684 |
-| **10 · LES HEURES — Depuis la rue** | Village et cycle des éclairages | Images 745–984 |
-| **13 · LA NUIT RESPIRE — Fenêtre et hirondelle** | Personnage de profil aux deux fenêtres, accessoires, masques de fenêtres et hirondelle | Images 1–144 |
+| **09 · PROMENADE — Regards dans la nuit** (A walk through the night) | Village, landscape, cypress trees, moon, stars, frame, characters, street props, cameras, and lights | Frames 1–1440; opens at frame 684 |
+| **10 · LES HEURES — Depuis la rue** (The hours, seen from the street) | Village and lighting cycle | Frames 745–984 |
+| **13 · LA NUIT RESPIRE — Fenêtre et hirondelle** (The breathing night: window and swallow) | Character at two windows, props, window masks, and swallow | Frames 1–144 |
 
-Le fichier contient **750 objets**, **473 données de maillage**, **675 matériaux**, **13 armatures** et **220 blocs d'animation**. Ces totaux comprennent les variantes nécessaires aux trois scènes et les données conservées du fichier source ; il ne s'agit pas de 750 modèles uniques.
+The file contains **750 objects**, **473 mesh data blocks**, **675 materials**, **13 armatures**, and **220 animation data blocks**. These totals include the variants needed by the three scenes and data retained from the source file; they do not represent 750 unique models.
 
-Les matériaux procéduraux, modificateurs, rigs, poses animées, caméras, lumières, mondes et réglages de compositing sont conservés. Les animations de visibilité restent actives : certains personnages sont volontairement masqués selon l'image choisie.
+Procedural materials, modifiers, rigs, animated poses, cameras, lights, worlds, and compositing settings are preserved. Visibility animations remain active: some characters are intentionally hidden at certain frames.
 
-| Personnages et accessoires | Vie aux fenêtres |
+| Characters and props | Life at the windows |
 |---|---|
-| ![Personnages dans le village](previews/personnages.png) | ![Scène des fenêtres](previews/fenetres.png) |
+| ![Characters in the village](previews/personnages.png) | ![The window scene](previews/fenetres.png) |
 
-## Périmètre de cette publication
+## Release scope
 
-Cette publication contient les **modèles et les scènes Blender de la V7 uniquement**. Le film, les fichiers MP4, la musique, les sons, les séquences d'images et le montage du séquenceur ne sont pas distribués. Les images ci-dessus sont des aperçus fixes rendus depuis le fichier partagé.
+This release contains **only the V7 Blender models and 3D scenes**. The film, MP4 files, music, sound, image sequences, and sequencer edit are not distributed. The images above are still previews rendered from the shared Blender file.
 
-Les anciennes versions ne sont pas incluses. Les noms historiques des objets et collections sont conservés pour faciliter leur repérage.
+Earlier model versions are not included. Original French scene, object, and collection names are preserved so they remain easy to locate in Blender; English explanations are provided in the documentation.
 
-## Réutiliser un élément
+## Reuse an element
 
-Depuis un autre projet Blender, utiliser **Fichier → Ajouter (Append)**, sélectionner le `.blend`, puis **Collection** ou **Object**. Pour un personnage animé, importer sa collection avec son armature et ses accessoires. Voir le [guide détaillé](docs/GUIDE_BLENDER.md).
+In another Blender project, choose **File → Append**, select the `.blend` file, then open **Collection** or **Object**. For an animated character, append its collection together with its armature and props. See the [detailed guide](docs/GUIDE_BLENDER.md).
 
-## Vérification et scripts
+## Verification and scripts
 
-- [Rapport de vérification](docs/verification.json) : inventaire, absence de dépendances externes, de sons et de séquenceur, évaluation de onze images représentatives des animations.
-- `scripts/prepare_blender.py` : préparation d'une copie 3D depuis le fichier V7 d'origine ; chemins source et destination fournis en arguments.
-- `scripts/verify_blender.py` : contrôle du fichier partagé dans Blender.
-- `scripts/render_previews.py` : rendu des trois aperçus fixes.
+- [Verification report](docs/verification.json): inventory, absence of external dependencies, sound, and sequencer data, plus evaluation of eleven representative animation frames.
+- `scripts/prepare_blender.py`: creates a 3D-only copy from the original V7 file; source and destination paths are supplied as arguments.
+- `scripts/verify_blender.py`: checks the shared file in Blender.
+- `scripts/render_previews.py`: renders the three still previews.
+- `scripts/package_release.py`: builds the complete downloadable archive and its SHA-256 checksum.
 
-Les scripts sont facultatifs : le fichier Blender s'ouvre directement. Le script de préparation nécessite le fichier original, qui n'est pas distribué puisqu'il contient le montage.
+The scripts are optional: the Blender file opens directly. The preparation script requires the original production file, which is not distributed because it contains the edit.
 
-## Crédits et réutilisation
+## Credits and reuse permissions
 
-Voir [CREDITS.md](CREDITS.md) pour Van Gogh et les bases anatomiques MakeHuman. Les licences des éléments tiers restent applicables à ces éléments. Aucune licence générale de réutilisation n'est attribuée aux créations propres à ce projet dans cette publication ; contacter [Firisis971](https://github.com/Firisis971) pour les autorisations.
+See [CREDITS.md](CREDITS.md) for Van Gogh and the MakeHuman anatomical bases. Third-party licenses continue to apply to their respective assets. This release does not assign a general reuse license to the project's original creations; contact [Firisis971](https://github.com/Firisis971) for permission.

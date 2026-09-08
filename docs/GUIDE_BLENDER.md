@@ -1,48 +1,48 @@
-# Utiliser les modèles dans Blender
+# Using the models in Blender
 
-## Explorer les trois scènes
+## Explore the three scenes
 
-Ouvrir `blender/La_Nuit_Etoilee_V7.blend`. Le sélecteur **Scène**, en haut de Blender, permet de passer de PROMENADE à LES HEURES ou LA NUIT RESPIRE.
+Open `blender/La_Nuit_Etoilee_V7.blend`. Use the **Scene** selector at the top of Blender to switch between PROMENADE, LES HEURES, and LA NUIT RESPIRE. Original French names inside Blender are retained; the table below explains their contents.
 
-Le projet s'ouvre sur la scène PROMENADE à l'image 684. Le pavé numérique **0** quitte ou retrouve la vue caméra ; le bouton central de la souris permet de tourner autour des modèles. L'Outliner liste les collections de bâtiments, reliefs, végétation, ciel, habitants, accessoires et éclairages.
+The project opens in PROMENADE at frame 684. Press **Numpad 0** to enter or leave camera view; use the middle mouse button to orbit around the models. The Outliner lists collections of buildings, terrain, vegetation, sky, inhabitants, props, and lights.
 
-Le mode **Material Preview** facilite l'exploration. Le rendu final peut différer du viewport : il utilise les éclairages de scène, le monde et le compositing conservés dans le fichier.
+**Material Preview** mode is useful for exploration. The final render can differ from the viewport because it uses the scene lighting, world, and compositing settings preserved in the file.
 
-## Observer les animations
+## Inspect the animations
 
-| Scène | Images utiles |
+| Scene | Useful frames |
 |---|---|
-| PROMENADE | 265–384 et 625–744 pour la marche ; 684 à l'ouverture |
-| LES HEURES | 745–984 pour les variations d'éclairage |
-| LA NUIT RESPIRE | 1–144 pour la personne aux fenêtres et l'hirondelle |
+| PROMENADE — village and characters | 265–384 and 625–744 for walking; opens at 684 |
+| LES HEURES — lighting cycle | 745–984 for lighting changes |
+| LA NUIT RESPIRE — windows and swallow | 1–144 for the character at the windows and the swallow |
 
-Les trois scènes utilisent leurs repères temporels d'origine. La plage complète de PROMENADE est rétablie à 1–1440 ; le fichier de production avait été enregistré sur un intervalle de rendu partiel. Les images clés ne sont pas décalées.
+All three scenes retain their original frame numbers. PROMENADE's full range is restored to 1–1440; the production file had been saved with a partial rendering range. Keyframes are not shifted.
 
-Certains objets portent des animations de visibilité. Choisir une image où le personnage est présent avant de l'inspecter. Pour la personne aux fenêtres, les modificateurs booléens limitent volontairement la géométrie visible aux ouvertures : conserver leur objet de masquage lors de l'importation.
+Some objects have visibility animations. Choose a frame where a character is visible before inspecting it. For the character at the windows, Boolean modifiers intentionally limit the visible geometry to the window openings: keep their mask object when importing.
 
-## Importer dans un autre projet
+## Import into another project
 
-1. Ouvrir le projet de destination.
-2. Choisir **Fichier → Ajouter (Append)** et sélectionner `La_Nuit_Etoilee_V7.blend`.
-3. Ouvrir **Collection** pour un ensemble ou **Object** pour un objet isolé.
-4. Sélectionner les éléments, puis valider l'ajout.
+1. Open the destination project.
+2. Choose **File → Append** and select `La_Nuit_Etoilee_V7.blend`.
+3. Open **Collection** for a group or **Object** for an individual object.
+4. Select the elements and confirm the append operation.
 
-Préférer une collection entière pour les personnages avec rigs, les ensembles animés et les objets utilisant des masques. Le mode Append crée une copie locale modifiable dans le nouveau projet.
+Prefer a complete collection for rigged characters, animated groups, and objects that use masks. Append creates a local, editable copy in the destination project.
 
-Pour transférer une scène complète avec son monde, ses caméras et ses réglages, choisir **Scene** au lieu de Collection.
+To transfer a complete scene with its world, cameras, and settings, choose **Scene** instead of Collection.
 
-## Ressources et performances
+## Resources and performance
 
-La texture de référence est intégrée au fichier. Les matériaux du décor sont largement procéduraux. Aucun chemin vers l'ordinateur d'origine n'est nécessaire.
+The reference texture is packed into the file. Most environment materials are procedural. No path to the original workstation is required.
 
-Chaque scène évalue environ 3,2 millions de sommets dans les contrôles effectués. Le mode solide peut être plus fluide pour l'édition. Le projet n'est pas un export simplifié pour navigateur ou moteur de jeu.
+Each scene evaluates approximately 3.2 million vertices in the checks performed. Solid mode may be more responsive for editing. This project is not an optimized export for a browser or game engine.
 
-## Contrôle reproductible
+## Reproduce the verification
 
-Depuis la racine du dossier, avec `blender` disponible dans le terminal :
+From the project root, with `blender` available in your terminal:
 
 ```sh
 blender --background blender/La_Nuit_Etoilee_V7.blend --python-exit-code 1 --python scripts/verify_blender.py -- docs/verification.json
 ```
 
-Ce contrôle rouvre le fichier et vérifie l'inventaire, les textures intégrées, l'absence de séquenceur et de médias audio/vidéo, puis évalue les animations et les modificateurs sur onze images.
+This check reopens the file, verifies the inventory, packed textures, and absence of sequencer and audio/video media, then evaluates animations and modifiers at eleven frames.

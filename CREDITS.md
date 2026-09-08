@@ -1,26 +1,26 @@
-# Crédits
+# Credits
 
-## Référence artistique
+## Artistic reference
 
-**Vincent van Gogh, La Nuit étoilée, 1889.** Le projet 3D est une interprétation de ce tableau. L'image de référence a été fournie pour la création du projet et reste intégrée au fichier Blender.
+**Vincent van Gogh, The Starry Night, 1889.** This 3D project is an interpretation of the painting. The reference image was supplied for the creation of the project and remains packed into the Blender file.
 
-## Bases anatomiques
+## Anatomical bases
 
-**MakeHuman — base anatomique hm08.**
+**MakeHuman — hm08 anatomical base.**
 
-- Source : https://github.com/makehumancommunity/makehuman/blob/master/makehuman/data/3dobjs/base.obj
-- Licence des assets indiquée par le projet MakeHuman : **CC0 1.0 Universal**.
-- Adaptation des têtes et corps pour les personnages de ce projet. Costumes, coiffures, accessoires, rigs, matériaux procéduraux et animations ont été créés pour le projet.
-- Les informations et crédits fournis avec le fichier source sont conservés dans `credits/makehuman/`.
+- [Source mesh](https://github.com/makehumancommunity/makehuman/blob/master/makehuman/data/3dobjs/base.obj).
+- Asset license stated by the MakeHuman project: **CC0 1.0 Universal**.
+- Heads and bodies were adapted for this project's characters. Costumes, hairstyles, props, rigs, procedural materials, and animations were created for the project.
+- The source information and credits supplied with the original file are preserved in `credits/makehuman/`.
 
-La licence du code de l'application MakeHuman est distincte de celle de ses assets. Aucun code de l'application MakeHuman n'est inclus ici.
+The license for MakeHuman application code is separate from the license for its assets. No MakeHuman application code is included here.
 
-## Créations du projet
+## Original project creations
 
-Publication : [Firisis971](https://github.com/Firisis971).
+Published by [Firisis971](https://github.com/Firisis971).
 
-Cette publication ne choisit pas de licence générale pour les créations propres au projet. Contacter l'auteur pour les autorisations de réutilisation ; les conditions propres aux éléments tiers ci-dessus restent applicables.
+This release does not assign a general license to the project's original creations. Contact the author for reuse permissions; the conditions applying to the third-party assets listed above remain applicable.
 
-## Périmètre
+## Scope
 
-Les musiques et sons du film ne sont pas inclus dans le fichier Blender partagé ni dans l'archive.
+Music and sound from the film are not included in the shared Blender file or archive.
